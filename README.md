@@ -42,7 +42,7 @@ The main difference is that these algorithms usually assume you always want to m
 The subject also has a time constraint therefore a special attention has been paid to adopt efficient data structure for reading, writing and solving the problem.
 Solving on larger maps (4k boxes) should be done in around 0.5 secs. 
 
-![Alt text](http://g.recordit.co/kGl0bHfCaU.gif "Implementation")
+![Visualization](http://g.recordit.co/lIoCFDhsri.gif "Implementation")
 
 
 
