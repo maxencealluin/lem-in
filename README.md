@@ -13,7 +13,7 @@ Boxes syntax : box-name box-x_coordinate box-y_coordinate
 Links syntax : box_a-box_b (works both ways)
 Start and end box are indicated by a comment on the preceding line (##start or ##end)
 
-Example map:
+### Example map:
 
 3<br/>
 1 0 2<br/>
@@ -34,11 +34,16 @@ The program will use the map to calculate a solution, the rules are the followin
 * Each ant may move to another box each turn
 * There may be only one ant per box at a given time (except end box)
 
+## Implementation
+
 The problem has a high algorithmic complexity and bruteforcing the solution is not feasible on the larger maps (5000+ boxes).
 Our implementation is based on Augmenting path algorithm and mainly on Edmonds–Karp algorithm with modifications to fit the particular constraints of the subject. 
 The main difference is that these algorithms usually assume you always want to maximize your flow, which is not always the case here as we have a limited supply of ants.
 The subject also has a time constraint therefore a special attention has been paid to adopt efficient data structure for reading, writing and solving the problem.
 Solving on larger maps (4k boxes) should be done in around 0.5 secs. 
+
+![Alt text](http://g.recordit.co/kGl0bHfCaU.gif "Implementation")
+
 
 
 ## Installation
