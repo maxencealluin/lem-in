@@ -36,11 +36,12 @@ The program will use the map to calculate a solution, the rules are the followin
 
 ## Implementation
 
-The problem has a high algorithmic complexity and bruteforcing the solution is not feasible on the larger maps (5000+ boxes).
+The problem has a high algorithmic complexity and bruteforcing the solution is not feasible on the larger maps (5000+ boxes).<br/>
 Our implementation is based on Augmenting path algorithm and mainly on Edmonds–Karp algorithm with modifications to fit the particular constraints of the subject. 
-The main difference is that these algorithms usually assume you always want to maximize your flow, which is not always the case here as we have a limited supply of ants.
+The main difference is that these algorithms usually assume you always want to maximize your flow, which is not always the case here as we have a limited supply of ants.<br/><br/>
 The subject also has a time constraint therefore a special attention has been paid to adopt efficient data structure for reading, writing and solving the problem.
 Solving on larger maps (4k boxes) should be done in around 0.5 secs. 
+<br/>
 
 <img src = "http://g.recordit.co/HulnUhKINw.gif" align="center" width="500" height="300"/>
 
