@@ -1,8 +1,6 @@
 # Lem-in
 Algorithmic project part of the cursus at 42 Paris. The goal of the project is to propose a solution to a non-trivial optimization problem.
 
-<img src = "http://g.recordit.co/HulnUhKINw.gif" align="center" width="500" height="300"/>
-
 ## Description
 
 Lem-in is an algorithmic project whose is to guide a variable number of ants through a network of 'boxes' in the most efficient way as possible.
